@@ -1,0 +1,20 @@
+{
+  "name": "EDUMIND PRIME V88",
+  "short_name": "EDUMIND",
+  "start_url": "./index.html",
+  "display": "browser",
+  "background_color": "#f6f8ff",
+  "theme_color": "#6754d9",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

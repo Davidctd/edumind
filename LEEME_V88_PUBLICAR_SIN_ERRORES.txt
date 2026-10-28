@@ -1,0 +1,35 @@
+EDUMIND PRIME V88 - PUBLICACION EN VERCEL SIN COMPILACION
+
+IMPORTANTE: Esta version reemplaza V87. El error MODULE_NOT_FOUND ya no puede venir de estos archivos porque no hay Build Command ni scripts/construir-vercel.cjs.
+
+SUBIDA DESDE GITHUB DESKTOP:
+1. Extrae este ZIP.
+2. En GitHub Desktop abre Repository > Show in Explorer.
+3. Abre la carpeta del repositorio. Debe contener .git (normalmente oculta).
+4. Copia TODOS los archivos y carpetas DESDE el interior del ZIP extraido
+   hasta la raiz de esa carpeta; no pegues una segunda carpeta contenedora.
+5. Debes ver index.html, vercel.json, assets/, visuals/, juegos/ y audio/ juntos.
+6. Si hay archivos viejos de V87, reemplazalos. Si en GitHub existen
+   scripts/construir-vercel.cjs o public/, ya no se necesitan en V88.
+7. Vuelve a GitHub Desktop: escribe EDUMIND V88, pulsa Commit to main y Push origin.
+8. En GitHub.com confirma que index.html y assets/ esten al nivel principal.
+
+VERCEL (Settings > Build and Deployment):
+- Git Repository: el repositorio edumind que acabas de actualizar.
+- Root Directory: VACIO (raiz del repositorio).
+- Framework Preset: Other.
+- Build Command: Override ACTIVADO, campo VACIO (no ejecutar comandos).
+- Output Directory: raiz del repositorio (.) o Override desactivado.
+- Install Command: sin personalizar.
+- En Deployment verifica que usa el commit EDUMIND V88.
+
+DIAGNOSTICO DESPUES DE PUBLICAR:
+  https://TU-DOMINIO.vercel.app/VERIFICAR_PUBLICACION.html
+Y verifica especificamente:
+  /assets/mascota-lapiz.gif
+  /visuals/nutricion_realista.webp
+  /juegos/orig-aprende-leer-50.html
+
+Esta entrega es una web estatica. No usa npm, no usa scripts de construccion
+y no requiere una carpeta public/ pre-generada en Vercel. La comprobacion
+local de archivos no sustituye la comprobacion del despliegue real.

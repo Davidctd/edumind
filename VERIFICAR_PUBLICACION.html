@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EDUMIND PRIME V88 | Verificación de publicación</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f2ff;color:#292454;font:16px/1.55 system-ui,Arial,sans-serif}main{max-width:960px;margin:auto;padding:18px}h1{font-size:clamp(25px,4vw,36px)}h2{font-size:20px}.card{background:#fff;border:1px solid #ddd1fa;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 5px 18px #ccb8f333}button,.back{border:0;border-radius:12px;padding:11px 14px;color:#fff;background:#5944b4;font-weight:700;font:inherit;cursor:pointer;display:inline-block;text-decoration:none;margin:4px 6px 4px 0}button:disabled{opacity:.6;cursor:wait}.secondary{background:#087b71}.muted{font-size:14px;color:#625a7f}.item{border-top:1px solid #ede7fb;padding:10px 0;display:flex;justify-content:space-between;gap:10px;align-items:center}.ruta{font:12px/1.4 ui-monospace,Consolas,monospace;overflow-wrap:anywhere}.ok{color:#13764d;font-weight:700}.bad{color:#bd2a41;font-weight:700}.note{background:#f3edff;border-radius:10px;padding:10px 13px}#issues{max-height:340px;overflow:auto}
+</style></head>
+<body><main><a class="back" href="index.html">⌂ Volver a EDUMIND</a><h1>Comprobar publicación de EDUMIND PRIME V88</h1><p>Este diagnóstico consulta los archivos que realmente entrega <strong>el servidor donde abriste el sitio</strong>. No modifica ningún archivo.</p>
+<section class="card"><p id="location" class="muted"></p><p id="summary">Elige una comprobación.</p>
+<button id="basic" type="button">Comprobar imágenes esenciales</button><button id="full" class="secondary" type="button">Revisar todas las rutas publicadas</button><div id="issues" role="status" aria-live="polite"></div></section>
+<section class="card"><h2>Interpretación</h2><p class="note">Si ves <strong>404</strong> en imágenes, juegos o audios, esos archivos no están disponibles en esa publicación. Si falta el inventario <code>edumind-publicacion.json</code>, el nuevo proceso de compilación V88 no está desplegado o no terminó correctamente.</p><p>En GitHub revisa que <code>index.html</code>, <code>assets/</code>, <code>visuals/</code>, <code>audio/</code> y <code>juegos/</code> estén al mismo nivel. En Vercel verifica el repositorio, el commit y el registro de compilación.</p><p class="muted">Una prueba de rutas satisfactoria no sustituye probar todos los ejercicios, lectura de voz y dispositivos físicos.</p></section>
+</main><script>
+'use strict';
+const basics=[
+ ['Página principal','index.html','text/html'],['Estilo de portada','portada_v73.css','text/css'],
+ ['Lógica del catálogo','portada_v73.js','javascript'],['Inventario V88','edumind-publicacion.json','application/json'],
+ ['Lápiz animado','assets/mascota-lapiz.gif','image/'],['Libro animado','assets/mascota-libro.gif','image/'],
+ ['Mochila animada','assets/mascota-mochila.gif','image/'],['Mochila PNG','assets/mascota-mochila.png','image/'],
+ ['Imagen nutrición','visuals/nutricion_realista.webp','image/'],['Imagen lectura','visuals/lectura_realista.webp','image/'],
+ ['Juego aprender a leer','juegos/orig-aprende-leer-50.html','text/html'],
+ ['Tren de sílabas','juegos/orig-tren-silabas-3d.html','text/html'],
+ ['Audio MP3','audio/teacher_extra/lesson_1.mp3','audio/']
+];
+const el=id=>document.getElementById(id);
+el('location').textContent='Servidor: '+location.origin;
+const safe=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function mimeFor(p){const ext=p.split('.').pop().toLowerCase();return {html:'text/html',css:'text/css',js:'javascript',json:'application/json',webmanifest:'',png:'image/',svg:'image/',webp:'image/',gif:'image/',jpg:'image/',jpeg:'image/',mp3:'audio/'}[ext]??'';}
+async function test(item){const [name,ruta,expected]=item;
+ try{const r=await fetch(ruta,{method:'HEAD',cache:'no-store'});const ct=r.headers.get('content-type')||'';const ok=r.ok&&(!expected||ct.toLowerCase().includes(expected));return {name,ruta,ok,code:r.status,ct};}
+ catch(e){return {name,ruta,ok:false,code:'Error',ct:String(e).slice(0,120)};}}
+function append(r){const d=document.createElement('div');d.className='item';d.innerHTML='<div><strong>'+safe(r.name)+'</strong><div class="ruta">'+safe(r.ruta)+'</div><small>'+safe(r.code)+' · '+safe(r.ct)+'</small></div><span class="'+(r.ok?'ok':'bad')+'">'+(r.ok?'✓':'✗')+'</span>';el('issues').appendChild(d);}
+async function run(mode){
+ el('basic').disabled=true;el('full').disabled=true;el('issues').textContent='';
+ let items=basics;
+ if(mode==='full'){
+  try{const r=await fetch('edumind-publicacion.json',{cache:'no-store'});
+   if(!r.ok)throw Error('HTTP '+r.status);
+   const data=await r.json();if(data.version!=='V88'||!Array.isArray(data.files))throw Error('inventario incompleto o de otra versión');
+   items=data.files.map(f=>[f.ruta,f.ruta,mimeFor(f.ruta)]);items.push(['Inventario V88','edumind-publicacion.json','application/json']);
+  }catch(e){el('summary').textContent='No se puede iniciar la revisión completa: '+e.message+'. Debes publicar primero V88 en Vercel.';el('basic').disabled=false;el('full').disabled=false;return;}
+ }
+ let completed=0,errors=[];el('summary').textContent='Comprobando 0 de '+items.length+' archivos...';
+ // Lotes de 8 para no saturar conexiones móviles ni el servidor.
+ for(let i=0;i<items.length;i+=8){
+  let batch=await Promise.all(items.slice(i,i+8).map(test));
+  for(const r of batch){if(!r.ok){errors.push(r);append(r);}else if(mode==='basic')append(r);completed++;}
+  el('summary').textContent='Comprobados '+completed+' de '+items.length+' · fallas '+errors.length;
+ }
+ el('summary').textContent=errors.length===0 ? '✓ '+completed+' de '+completed+' rutas disponibles. Verificación de recursos aprobada.' : '✗ '+errors.length+' archivos inaccesibles o con tipo inesperado de '+completed+' revisados.';
+ if(mode==='full'&&!errors.length)el('issues').textContent='Todos los archivos del inventario V88 respondieron correctamente.';
+ el('basic').disabled=false;el('full').disabled=false;
+}
+el('basic').addEventListener('click',()=>run('basic'));
+el('full').addEventListener('click',()=>run('full'));
+</script></body></html>

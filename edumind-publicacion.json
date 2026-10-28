@@ -1,0 +1,2247 @@
+{
+  "version": "V88",
+  "generatedAt": "2026-10-28T00:00:00Z",
+  "fileCount": 559,
+  "gameCount": 109,
+  "cardCount": 112,
+  "verifiedLocalReferences": 1294,
+  "mediaCount": 428,
+  "files": [
+    {
+      "ruta": ".nojekyll",
+      "bytes": 0
+    },
+    {
+      "ruta": "INICIO_DIRECTO_SIN_CATALOGO.html",
+      "bytes": 13541
+    },
+    {
+      "ruta": "VERIFICAR_PUBLICACION.html",
+      "bytes": 6290
+    },
+    {
+      "ruta": "actualizar.html",
+      "bytes": 1517
+    },
+    {
+      "ruta": "assets/artes-museo.svg",
+      "bytes": 1380
+    },
+    {
+      "ruta": "assets/cubo-v73.svg",
+      "bytes": 2541
+    },
+    {
+      "ruta": "assets/cuerpo-humano.svg",
+      "bytes": 1182
+    },
+    {
+      "ruta": "assets/docentes-preparacion.svg",
+      "bytes": 1389
+    },
+    {
+      "ruta": "assets/edumind-accesible-v82.js",
+      "bytes": 13029
+    },
+    {
+      "ruta": "assets/edumind-adsense-config-v83.js",
+      "bytes": 847
+    },
+    {
+      "ruta": "assets/edumind-adsense-v83.js",
+      "bytes": 1366
+    },
+    {
+      "ruta": "assets/espanol-v81-data.js",
+      "bytes": 170394
+    },
+    {
+      "ruta": "assets/espanol-v81.css",
+      "bytes": 6193
+    },
+    {
+      "ruta": "assets/espanol-v81.js",
+      "bytes": 6185
+    },
+    {
+      "ruta": "assets/estilo-juegos-v73.css",
+      "bytes": 8897
+    },
+    {
+      "ruta": "assets/flags/ad.png",
+      "bytes": 6888
+    },
+    {
+      "ruta": "assets/flags/ae.png",
+      "bytes": 3334
+    },
+    {
+      "ruta": "assets/flags/af.png",
+      "bytes": 10230
+    },
+    {
+      "ruta": "assets/flags/ag.png",
+      "bytes": 6671
+    },
+    {
+      "ruta": "assets/flags/al.png",
+      "bytes": 7290
+    },
+    {
+      "ruta": "assets/flags/am.png",
+      "bytes": 4430
+    },
+    {
+      "ruta": "assets/flags/ao.png",
+      "bytes": 6586
+    },
+    {
+      "ruta": "assets/flags/ar.png",
+      "bytes": 5945
+    },
+    {
+      "ruta": "assets/flags/at.png",
+      "bytes": 4094
+    },
+    {
+      "ruta": "assets/flags/au.png",
+      "bytes": 8624
+    },
+    {
+      "ruta": "assets/flags/az.png",
+      "bytes": 5889
+    },
+    {
+      "ruta": "assets/flags/ba.png",
+      "bytes": 7740
+    },
+    {
+      "ruta": "assets/flags/bb.png",
+      "bytes": 5277
+    },
+    {
+      "ruta": "assets/flags/bd.png",
+      "bytes": 5029
+    },
+    {
+      "ruta": "assets/flags/be.png",
+      "bytes": 2997
+    },
+    {
+      "ruta": "assets/flags/bf.png",
+      "bytes": 4658
+    },
+    {
+      "ruta": "assets/flags/bg.png",
+      "bytes": 4088
+    },
+    {
+      "ruta": "assets/flags/bh.png",
+      "bytes": 4705
+    },
+    {
+      "ruta": "assets/flags/bi.png",
+      "bytes": 8169
+    },
+    {
+      "ruta": "assets/flags/bj.png",
+      "bytes": 3803
+    },
+    {
+      "ruta": "assets/flags/bn.png",
+      "bytes": 8369
+    },
+    {
+      "ruta": "assets/flags/bo.png",
+      "bytes": 4247
+    },
+    {
+      "ruta": "assets/flags/br.png",
+      "bytes": 8408
+    },
+    {
+      "ruta": "assets/flags/bs.png",
+      "bytes": 4822
+    },
+    {
+      "ruta": "assets/flags/bt.png",
+      "bytes": 11108
+    },
+    {
+      "ruta": "assets/flags/bw.png",
+      "bytes": 5333
+    },
+    {
+      "ruta": "assets/flags/by.png",
+      "bytes": 8554
+    },
+    {
+      "ruta": "assets/flags/bz.png",
+      "bytes": 13862
+    },
+    {
+      "ruta": "assets/flags/ca.png",
+      "bytes": 3686
+    },
+    {
+      "ruta": "assets/flags/cd.png",
+      "bytes": 7443
+    },
+    {
+      "ruta": "assets/flags/cf.png",
+      "bytes": 5506
+    },
+    {
+      "ruta": "assets/flags/cg.png",
+      "bytes": 5149
+    },
+    {
+      "ruta": "assets/flags/ch.png",
+      "bytes": 2178
+    },
+    {
+      "ruta": "assets/flags/ci.png",
+      "bytes": 3424
+    },
+    {
+      "ruta": "assets/flags/cl.png",
+      "bytes": 4349
+    },
+    {
+      "ruta": "assets/flags/cm.png",
+      "bytes": 4487
+    },
+    {
+      "ruta": "assets/flags/cn.png",
+      "bytes": 4491
+    },
+    {
+      "ruta": "assets/flags/co.png",
+      "bytes": 4508
+    },
+    {
+      "ruta": "assets/flags/cr.png",
+      "bytes": 5241
+    },
+    {
+      "ruta": "assets/flags/cu.png",
+      "bytes": 6476
+    },
+    {
+      "ruta": "assets/flags/cv.png",
+      "bytes": 7512
+    },
+    {
+      "ruta": "assets/flags/cy.png",
+      "bytes": 5511
+    },
+    {
+      "ruta": "assets/flags/cz.png",
+      "bytes": 4178
+    },
+    {
+      "ruta": "assets/flags/de.png",
+      "bytes": 2868
+    },
+    {
+      "ruta": "assets/flags/dj.png",
+      "bytes": 5351
+    },
+    {
+      "ruta": "assets/flags/dk.png",
+      "bytes": 4621
+    },
+    {
+      "ruta": "assets/flags/dm.png",
+      "bytes": 8110
+    },
+    {
+      "ruta": "assets/flags/do.png",
+      "bytes": 6028
+    },
+    {
+      "ruta": "assets/flags/dz.png",
+      "bytes": 5326
+    },
+    {
+      "ruta": "assets/flags/ec.png",
+      "bytes": 7817
+    },
+    {
+      "ruta": "assets/flags/ee.png",
+      "bytes": 3415
+    },
+    {
+      "ruta": "assets/flags/eg.png",
+      "bytes": 4390
+    },
+    {
+      "ruta": "assets/flags/er.png",
+      "bytes": 8368
+    },
+    {
+      "ruta": "assets/flags/es.png",
+      "bytes": 7102
+    },
+    {
+      "ruta": "assets/flags/et.png",
+      "bytes": 8226
+    },
+    {
+      "ruta": "assets/flags/fi.png",
+      "bytes": 4436
+    },
+    {
+      "ruta": "assets/flags/fj.png",
+      "bytes": 10907
+    },
+    {
+      "ruta": "assets/flags/fm.png",
+      "bytes": 5159
+    },
+    {
+      "ruta": "assets/flags/fr.png",
+      "bytes": 3281
+    },
+    {
+      "ruta": "assets/flags/ga.png",
+      "bytes": 4795
+    },
+    {
+      "ruta": "assets/flags/gb.png",
+      "bytes": 11351
+    },
+    {
+      "ruta": "assets/flags/gd.png",
+      "bytes": 9200
+    },
+    {
+      "ruta": "assets/flags/ge.png",
+      "bytes": 4501
+    },
+    {
+      "ruta": "assets/flags/gh.png",
+      "bytes": 5396
+    },
+    {
+      "ruta": "assets/flags/gm.png",
+      "bytes": 5599
+    },
+    {
+      "ruta": "assets/flags/gn.png",
+      "bytes": 3708
+    },
+    {
+      "ruta": "assets/flags/gq.png",
+      "bytes": 6444
+    },
+    {
+      "ruta": "assets/flags/gr.png",
+      "bytes": 8213
+    },
+    {
+      "ruta": "assets/flags/gt.png",
+      "bytes": 6130
+    },
+    {
+      "ruta": "assets/flags/gw.png",
+      "bytes": 4388
+    },
+    {
+      "ruta": "assets/flags/gy.png",
+      "bytes": 7673
+    },
+    {
+      "ruta": "assets/flags/hn.png",
+      "bytes": 5168
+    },
+    {
+      "ruta": "assets/flags/hr.png",
+      "bytes": 5898
+    },
+    {
+      "ruta": "assets/flags/ht.png",
+      "bytes": 5733
+    },
+    {
+      "ruta": "assets/flags/hu.png",
+      "bytes": 4227
+    },
+    {
+      "ruta": "assets/flags/id.png",
+      "bytes": 2581
+    },
+    {
+      "ruta": "assets/flags/ie.png",
+      "bytes": 3635
+    },
+    {
+      "ruta": "assets/flags/il.png",
+      "bytes": 7058
+    },
+    {
+      "ruta": "assets/flags/in.png",
+      "bytes": 5997
+    },
+    {
+      "ruta": "assets/flags/iq.png",
+      "bytes": 4712
+    },
+    {
+      "ruta": "assets/flags/ir.png",
+      "bytes": 8075
+    },
+    {
+      "ruta": "assets/flags/is.png",
+      "bytes": 6530
+    },
+    {
+      "ruta": "assets/flags/it.png",
+      "bytes": 3300
+    },
+    {
+      "ruta": "assets/flags/jm.png",
+      "bytes": 5792
+    },
+    {
+      "ruta": "assets/flags/jo.png",
+      "bytes": 4710
+    },
+    {
+      "ruta": "assets/flags/jp.png",
+      "bytes": 3906
+    },
+    {
+      "ruta": "assets/flags/ke.png",
+      "bytes": 6745
+    },
+    {
+      "ruta": "assets/flags/kg.png",
+      "bytes": 8167
+    },
+    {
+      "ruta": "assets/flags/kh.png",
+      "bytes": 8070
+    },
+    {
+      "ruta": "assets/flags/ki.png",
+      "bytes": 9864
+    },
+    {
+      "ruta": "assets/flags/km.png",
+      "bytes": 7129
+    },
+    {
+      "ruta": "assets/flags/kn.png",
+      "bytes": 6859
+    },
+    {
+      "ruta": "assets/flags/kp.png",
+      "bytes": 7291
+    },
+    {
+      "ruta": "assets/flags/kr.png",
+      "bytes": 8035
+    },
+    {
+      "ruta": "assets/flags/kw.png",
+      "bytes": 4030
+    },
+    {
+      "ruta": "assets/flags/kz.png",
+      "bytes": 9061
+    },
+    {
+      "ruta": "assets/flags/la.png",
+      "bytes": 5145
+    },
+    {
+      "ruta": "assets/flags/lb.png",
+      "bytes": 6418
+    },
+    {
+      "ruta": "assets/flags/lc.png",
+      "bytes": 6128
+    },
+    {
+      "ruta": "assets/flags/li.png",
+      "bytes": 5599
+    },
+    {
+      "ruta": "assets/flags/lk.png",
+      "bytes": 10546
+    },
+    {
+      "ruta": "assets/flags/lr.png",
+      "bytes": 9850
+    },
+    {
+      "ruta": "assets/flags/ls.png",
+      "bytes": 5406
+    },
+    {
+      "ruta": "assets/flags/lt.png",
+      "bytes": 4641
+    },
+    {
+      "ruta": "assets/flags/lu.png",
+      "bytes": 4266
+    },
+    {
+      "ruta": "assets/flags/lv.png",
+      "bytes": 4470
+    },
+    {
+      "ruta": "assets/flags/ly.png",
+      "bytes": 4177
+    },
+    {
+      "ruta": "assets/flags/ma.png",
+      "bytes": 4377
+    },
+    {
+      "ruta": "assets/flags/mc.png",
+      "bytes": 3279
+    },
+    {
+      "ruta": "assets/flags/md.png",
+      "bytes": 6815
+    },
+    {
+      "ruta": "assets/flags/me.png",
+      "bytes": 7976
+    },
+    {
+      "ruta": "assets/flags/mg.png",
+      "bytes": 3527
+    },
+    {
+      "ruta": "assets/flags/mh.png",
+      "bytes": 8322
+    },
+    {
+      "ruta": "assets/flags/mk.png",
+      "bytes": 7566
+    },
+    {
+      "ruta": "assets/flags/ml.png",
+      "bytes": 3732
+    },
+    {
+      "ruta": "assets/flags/mm.png",
+      "bytes": 6133
+    },
+    {
+      "ruta": "assets/flags/mn.png",
+      "bytes": 5707
+    },
+    {
+      "ruta": "assets/flags/mr.png",
+      "bytes": 6575
+    },
+    {
+      "ruta": "assets/flags/mt.png",
+      "bytes": 3975
+    },
+    {
+      "ruta": "assets/flags/mu.png",
+      "bytes": 4933
+    },
+    {
+      "ruta": "assets/flags/mv.png",
+      "bytes": 5006
+    },
+    {
+      "ruta": "assets/flags/mw.png",
+      "bytes": 6152
+    },
+    {
+      "ruta": "assets/flags/mx.png",
+      "bytes": 6324
+    },
+    {
+      "ruta": "assets/flags/my.png",
+      "bytes": 10702
+    },
+    {
+      "ruta": "assets/flags/mz.png",
+      "bytes": 7683
+    },
+    {
+      "ruta": "assets/flags/na.png",
+      "bytes": 8115
+    },
+    {
+      "ruta": "assets/flags/ne.png",
+      "bytes": 4875
+    },
+    {
+      "ruta": "assets/flags/ng.png",
+      "bytes": 3526
+    },
+    {
+      "ruta": "assets/flags/ni.png",
+      "bytes": 5668
+    },
+    {
+      "ruta": "assets/flags/nl.png",
+      "bytes": 4064
+    },
+    {
+      "ruta": "assets/flags/no.png",
+      "bytes": 6061
+    },
+    {
+      "ruta": "assets/flags/np.png",
+      "bytes": 6566
+    },
+    {
+      "ruta": "assets/flags/nr.png",
+      "bytes": 5786
+    },
+    {
+      "ruta": "assets/flags/nz.png",
+      "bytes": 8933
+    },
+    {
+      "ruta": "assets/flags/om.png",
+      "bytes": 5256
+    },
+    {
+      "ruta": "assets/flags/pa.png",
+      "bytes": 4997
+    },
+    {
+      "ruta": "assets/flags/pe.png",
+      "bytes": 3017
+    },
+    {
+      "ruta": "assets/flags/pg.png",
+      "bytes": 6366
+    },
+    {
+      "ruta": "assets/flags/ph.png",
+      "bytes": 6391
+    },
+    {
+      "ruta": "assets/flags/pk.png",
+      "bytes": 5412
+    },
+    {
+      "ruta": "assets/flags/pl.png",
+      "bytes": 3160
+    },
+    {
+      "ruta": "assets/flags/ps.png",
+      "bytes": 4076
+    },
+    {
+      "ruta": "assets/flags/pt.png",
+      "bytes": 6610
+    },
+    {
+      "ruta": "assets/flags/pw.png",
+      "bytes": 4860
+    },
+    {
+      "ruta": "assets/flags/py.png",
+      "bytes": 5718
+    },
+    {
+      "ruta": "assets/flags/qa.png",
+      "bytes": 4154
+    },
+    {
+      "ruta": "assets/flags/ro.png",
+      "bytes": 3548
+    },
+    {
+      "ruta": "assets/flags/rs.png",
+      "bytes": 8988
+    },
+    {
+      "ruta": "assets/flags/ru.png",
+      "bytes": 4036
+    },
+    {
+      "ruta": "assets/flags/rw.png",
+      "bytes": 6126
+    },
+    {
+      "ruta": "assets/flags/sa.png",
+      "bytes": 8636
+    },
+    {
+      "ruta": "assets/flags/sb.png",
+      "bytes": 6684
+    },
+    {
+      "ruta": "assets/flags/sc.png",
+      "bytes": 6454
+    },
+    {
+      "ruta": "assets/flags/sd.png",
+      "bytes": 4121
+    },
+    {
+      "ruta": "assets/flags/se.png",
+      "bytes": 4950
+    },
+    {
+      "ruta": "assets/flags/sg.png",
+      "bytes": 4898
+    },
+    {
+      "ruta": "assets/flags/si.png",
+      "bytes": 5407
+    },
+    {
+      "ruta": "assets/flags/sk.png",
+      "bytes": 6236
+    },
+    {
+      "ruta": "assets/flags/sl.png",
+      "bytes": 4206
+    },
+    {
+      "ruta": "assets/flags/sm.png",
+      "bytes": 8229
+    },
+    {
+      "ruta": "assets/flags/sn.png",
+      "bytes": 4481
+    },
+    {
+      "ruta": "assets/flags/so.png",
+      "bytes": 4766
+    },
+    {
+      "ruta": "assets/flags/sr.png",
+      "bytes": 6919
+    },
+    {
+      "ruta": "assets/flags/ss.png",
+      "bytes": 6279
+    },
+    {
+      "ruta": "assets/flags/st.png",
+      "bytes": 6475
+    },
+    {
+      "ruta": "assets/flags/sv.png",
+      "bytes": 6215
+    },
+    {
+      "ruta": "assets/flags/sy.png",
+      "bytes": 5281
+    },
+    {
+      "ruta": "assets/flags/sz.png",
+      "bytes": 10093
+    },
+    {
+      "ruta": "assets/flags/td.png",
+      "bytes": 3500
+    },
+    {
+      "ruta": "assets/flags/tg.png",
+      "bytes": 6458
+    },
+    {
+      "ruta": "assets/flags/th.png",
+      "bytes": 5431
+    },
+    {
+      "ruta": "assets/flags/tj.png",
+      "bytes": 5024
+    },
+    {
+      "ruta": "assets/flags/tl.png",
+      "bytes": 5618
+    },
+    {
+      "ruta": "assets/flags/tm.png",
+      "bytes": 10159
+    },
+    {
+      "ruta": "assets/flags/tn.png",
+      "bytes": 4950
+    },
+    {
+      "ruta": "assets/flags/to.png",
+      "bytes": 3363
+    },
+    {
+      "ruta": "assets/flags/tr.png",
+      "bytes": 4776
+    },
+    {
+      "ruta": "assets/flags/tt.png",
+      "bytes": 8397
+    },
+    {
+      "ruta": "assets/flags/tv.png",
+      "bytes": 10847
+    },
+    {
+      "ruta": "assets/flags/tz.png",
+      "bytes": 5426
+    },
+    {
+      "ruta": "assets/flags/ua.png",
+      "bytes": 3728
+    },
+    {
+      "ruta": "assets/flags/ug.png",
+      "bytes": 6268
+    },
+    {
+      "ruta": "assets/flags/us.png",
+      "bytes": 13461
+    },
+    {
+      "ruta": "assets/flags/uy.png",
+      "bytes": 9866
+    },
+    {
+      "ruta": "assets/flags/uz.png",
+      "bytes": 6499
+    },
+    {
+      "ruta": "assets/flags/va.png",
+      "bytes": 6028
+    },
+    {
+      "ruta": "assets/flags/vc.png",
+      "bytes": 5591
+    },
+    {
+      "ruta": "assets/flags/ve.png",
+      "bytes": 5677
+    },
+    {
+      "ruta": "assets/flags/vn.png",
+      "bytes": 4497
+    },
+    {
+      "ruta": "assets/flags/vu.png",
+      "bytes": 7360
+    },
+    {
+      "ruta": "assets/flags/ws.png",
+      "bytes": 5107
+    },
+    {
+      "ruta": "assets/flags/ye.png",
+      "bytes": 3189
+    },
+    {
+      "ruta": "assets/flags/za.png",
+      "bytes": 7212
+    },
+    {
+      "ruta": "assets/flags/zm.png",
+      "bytes": 4923
+    },
+    {
+      "ruta": "assets/flags/zw.png",
+      "bytes": 7540
+    },
+    {
+      "ruta": "assets/hist-civilizaciones.svg",
+      "bytes": 1271
+    },
+    {
+      "ruta": "assets/mascota-lapiz.gif",
+      "bytes": 107143
+    },
+    {
+      "ruta": "assets/mascota-lapiz.png",
+      "bytes": 13212
+    },
+    {
+      "ruta": "assets/mascota-libro.gif",
+      "bytes": 118022
+    },
+    {
+      "ruta": "assets/mascota-libro.png",
+      "bytes": 11811
+    },
+    {
+      "ruta": "assets/mascota-mochila.gif",
+      "bytes": 110922
+    },
+    {
+      "ruta": "assets/mascota-mochila.png",
+      "bytes": 16925
+    },
+    {
+      "ruta": "assets/matemega-v83.css",
+      "bytes": 3135
+    },
+    {
+      "ruta": "assets/matemega-v83.js",
+      "bytes": 11710
+    },
+    {
+      "ruta": "assets/medio-fifa.svg",
+      "bytes": 1402
+    },
+    {
+      "ruta": "assets/medio-servicity.svg",
+      "bytes": 1450
+    },
+    {
+      "ruta": "assets/piramide-v73.svg",
+      "bytes": 2110
+    },
+    {
+      "ruta": "assets/prisma-hexagonal-v73.svg",
+      "bytes": 3243
+    },
+    {
+      "ruta": "assets/prisma-rectangular-v73.svg",
+      "bytes": 2555
+    },
+    {
+      "ruta": "assets/prisma-triangular-v73.svg",
+      "bytes": 2216
+    },
+    {
+      "ruta": "assets/salud-agua-virtual.svg",
+      "bytes": 1304
+    },
+    {
+      "ruta": "assets/salud-agua.svg",
+      "bytes": 1067
+    },
+    {
+      "ruta": "assets/salud-animales.svg",
+      "bytes": 1294
+    },
+    {
+      "ruta": "assets/salud-energia.svg",
+      "bytes": 1309
+    },
+    {
+      "ruta": "assets/salud-naturaleza.svg",
+      "bytes": 1234
+    },
+    {
+      "ruta": "assets/salud-ozono.svg",
+      "bytes": 1232
+    },
+    {
+      "ruta": "assets/tetraedro-v73.svg",
+      "bytes": 1879
+    },
+    {
+      "ruta": "audio/director/case_0_0.mp3",
+      "bytes": 58740
+    },
+    {
+      "ruta": "audio/director/case_0_1.mp3",
+      "bytes": 41108
+    },
+    {
+      "ruta": "audio/director/case_0_2.mp3",
+      "bytes": 44373
+    },
+    {
+      "ruta": "audio/director/case_0_3.mp3",
+      "bytes": 48291
+    },
+    {
+      "ruta": "audio/director/case_1_0.mp3",
+      "bytes": 54691
+    },
+    {
+      "ruta": "audio/director/case_1_1.mp3",
+      "bytes": 59001
+    },
+    {
+      "ruta": "audio/director/case_1_2.mp3",
+      "bytes": 59001
+    },
+    {
+      "ruta": "audio/director/case_1_3.mp3",
+      "bytes": 47899
+    },
+    {
+      "ruta": "audio/director/case_2_0.mp3",
+      "bytes": 57434
+    },
+    {
+      "ruta": "audio/director/case_2_1.mp3",
+      "bytes": 41369
+    },
+    {
+      "ruta": "audio/director/case_2_2.mp3",
+      "bytes": 45940
+    },
+    {
+      "ruta": "audio/director/case_2_3.mp3",
+      "bytes": 46071
+    },
+    {
+      "ruta": "audio/director/case_3_0.mp3",
+      "bytes": 44373
+    },
+    {
+      "ruta": "audio/director/case_3_1.mp3",
+      "bytes": 55344
+    },
+    {
+      "ruta": "audio/director/case_3_2.mp3",
+      "bytes": 45548
+    },
+    {
+      "ruta": "audio/director/case_3_3.mp3",
+      "bytes": 47377
+    },
+    {
+      "ruta": "audio/director/case_4_0.mp3",
+      "bytes": 42152
+    },
+    {
+      "ruta": "audio/director/case_4_1.mp3",
+      "bytes": 49989
+    },
+    {
+      "ruta": "audio/director/case_4_2.mp3",
+      "bytes": 46985
+    },
+    {
+      "ruta": "audio/director/case_4_3.mp3",
+      "bytes": 52601
+    },
+    {
+      "ruta": "audio/director/case_5_0.mp3",
+      "bytes": 47377
+    },
+    {
+      "ruta": "audio/director/case_5_1.mp3",
+      "bytes": 52601
+    },
+    {
+      "ruta": "audio/director/case_5_2.mp3",
+      "bytes": 38495
+    },
+    {
+      "ruta": "audio/director/case_5_3.mp3",
+      "bytes": 53777
+    },
+    {
+      "ruta": "audio/director/case_6_0.mp3",
+      "bytes": 54038
+    },
+    {
+      "ruta": "audio/director/case_6_1.mp3",
+      "bytes": 103410
+    },
+    {
+      "ruta": "audio/director/case_6_2.mp3",
+      "bytes": 133450
+    },
+    {
+      "ruta": "audio/director/case_6_3.mp3",
+      "bytes": 64748
+    },
+    {
+      "ruta": "audio/director/choices_0_0.mp3",
+      "bytes": 84601
+    },
+    {
+      "ruta": "audio/director/choices_0_1.mp3",
+      "bytes": 105630
+    },
+    {
+      "ruta": "audio/director/choices_0_2.mp3",
+      "bytes": 84079
+    },
+    {
+      "ruta": "audio/director/choices_0_3.mp3",
+      "bytes": 82512
+    },
+    {
+      "ruta": "audio/director/choices_1_0.mp3",
+      "bytes": 120389
+    },
+    {
+      "ruta": "audio/director/choices_1_1.mp3",
+      "bytes": 90610
+    },
+    {
+      "ruta": "audio/director/choices_1_2.mp3",
+      "bytes": 108503
+    },
+    {
+      "ruta": "audio/director/choices_1_3.mp3",
+      "bytes": 90479
+    },
+    {
+      "ruta": "audio/director/choices_2_0.mp3",
+      "bytes": 95965
+    },
+    {
+      "ruta": "audio/director/choices_2_1.mp3",
+      "bytes": 85908
+    },
+    {
+      "ruta": "audio/director/choices_2_2.mp3",
+      "bytes": 83556
+    },
+    {
+      "ruta": "audio/director/choices_2_3.mp3",
+      "bytes": 95181
+    },
+    {
+      "ruta": "audio/director/choices_3_0.mp3",
+      "bytes": 96487
+    },
+    {
+      "ruta": "audio/director/choices_3_1.mp3",
+      "bytes": 103671
+    },
+    {
+      "ruta": "audio/director/choices_3_2.mp3",
+      "bytes": 107197
+    },
+    {
+      "ruta": "audio/director/choices_3_3.mp3",
+      "bytes": 89695
+    },
+    {
+      "ruta": "audio/director/choices_4_0.mp3",
+      "bytes": 75589
+    },
+    {
+      "ruta": "audio/director/choices_4_1.mp3",
+      "bytes": 106414
+    },
+    {
+      "ruta": "audio/director/choices_4_2.mp3",
+      "bytes": 86299
+    },
+    {
+      "ruta": "audio/director/choices_4_3.mp3",
+      "bytes": 99752
+    },
+    {
+      "ruta": "audio/director/choices_5_0.mp3",
+      "bytes": 80944
+    },
+    {
+      "ruta": "audio/director/choices_5_1.mp3",
+      "bytes": 98446
+    },
+    {
+      "ruta": "audio/director/choices_5_2.mp3",
+      "bytes": 101320
+    },
+    {
+      "ruta": "audio/director/choices_5_3.mp3",
+      "bytes": 102887
+    },
+    {
+      "ruta": "audio/director/choices_6_0.mp3",
+      "bytes": 106414
+    },
+    {
+      "ruta": "audio/director/choices_6_1.mp3",
+      "bytes": 41761
+    },
+    {
+      "ruta": "audio/director/choices_6_2.mp3",
+      "bytes": 53516
+    },
+    {
+      "ruta": "audio/director/choices_6_3.mp3",
+      "bytes": 90871
+    },
+    {
+      "ruta": "audio/director/lesson_0.mp3",
+      "bytes": 402120
+    },
+    {
+      "ruta": "audio/director/lesson_1.mp3",
+      "bytes": 466250
+    },
+    {
+      "ruta": "audio/director/lesson_2.mp3",
+      "bytes": 400422
+    },
+    {
+      "ruta": "audio/director/lesson_3.mp3",
+      "bytes": 389059
+    },
+    {
+      "ruta": "audio/director/lesson_4.mp3",
+      "bytes": 430332
+    },
+    {
+      "ruta": "audio/director/lesson_5.mp3",
+      "bytes": 415703
+    },
+    {
+      "ruta": "audio/director/lesson_6.mp3",
+      "bytes": 567736
+    },
+    {
+      "ruta": "audio/director/overview.mp3",
+      "bytes": 155132
+    },
+    {
+      "ruta": "audio/director/why_0_0.mp3",
+      "bytes": 178773
+    },
+    {
+      "ruta": "audio/director/why_0_1.mp3",
+      "bytes": 174985
+    },
+    {
+      "ruta": "audio/director/why_0_2.mp3",
+      "bytes": 159573
+    },
+    {
+      "ruta": "audio/director/why_0_3.mp3",
+      "bytes": 156177
+    },
+    {
+      "ruta": "audio/director/why_1_0.mp3",
+      "bytes": 170022
+    },
+    {
+      "ruta": "audio/director/why_1_1.mp3",
+      "bytes": 160748
+    },
+    {
+      "ruta": "audio/director/why_1_2.mp3",
+      "bytes": 181516
+    },
+    {
+      "ruta": "audio/director/why_1_3.mp3",
+      "bytes": 156177
+    },
+    {
+      "ruta": "audio/director/why_2_0.mp3",
+      "bytes": 172112
+    },
+    {
+      "ruta": "audio/director/why_2_1.mp3",
+      "bytes": 152259
+    },
+    {
+      "ruta": "audio/director/why_2_2.mp3",
+      "bytes": 142854
+    },
+    {
+      "ruta": "audio/director/why_2_3.mp3",
+      "bytes": 150691
+    },
+    {
+      "ruta": "audio/director/why_3_0.mp3",
+      "bytes": 156308
+    },
+    {
+      "ruta": "audio/director/why_3_1.mp3",
+      "bytes": 151083
+    },
+    {
+      "ruta": "audio/director/why_3_2.mp3",
+      "bytes": 166887
+    },
+    {
+      "ruta": "audio/director/why_3_3.mp3",
+      "bytes": 144552
+    },
+    {
+      "ruta": "audio/director/why_4_0.mp3",
+      "bytes": 159050
+    },
+    {
+      "ruta": "audio/director/why_4_1.mp3",
+      "bytes": 158920
+    },
+    {
+      "ruta": "audio/director/why_4_2.mp3",
+      "bytes": 145989
+    },
+    {
+      "ruta": "audio/director/why_4_3.mp3",
+      "bytes": 143899
+    },
+    {
+      "ruta": "audio/director/why_5_0.mp3",
+      "bytes": 144291
+    },
+    {
+      "ruta": "audio/director/why_5_1.mp3",
+      "bytes": 144422
+    },
+    {
+      "ruta": "audio/director/why_5_2.mp3",
+      "bytes": 144291
+    },
+    {
+      "ruta": "audio/director/why_5_3.mp3",
+      "bytes": 152389
+    },
+    {
+      "ruta": "audio/director/why_6_0.mp3",
+      "bytes": 218871
+    },
+    {
+      "ruta": "audio/director/why_6_1.mp3",
+      "bytes": 185956
+    },
+    {
+      "ruta": "audio/director/why_6_2.mp3",
+      "bytes": 221614
+    },
+    {
+      "ruta": "audio/director/why_6_3.mp3",
+      "bytes": 182691
+    },
+    {
+      "ruta": "audio/teacher_extra/case_0_0.mp3",
+      "bytes": 45026
+    },
+    {
+      "ruta": "audio/teacher_extra/case_0_1.mp3",
+      "bytes": 46724
+    },
+    {
+      "ruta": "audio/teacher_extra/case_0_2.mp3",
+      "bytes": 42805
+    },
+    {
+      "ruta": "audio/teacher_extra/case_0_3.mp3",
+      "bytes": 52079
+    },
+    {
+      "ruta": "audio/teacher_extra/case_1_0.mp3",
+      "bytes": 51165
+    },
+    {
+      "ruta": "audio/teacher_extra/case_1_1.mp3",
+      "bytes": 46332
+    },
+    {
+      "ruta": "audio/teacher_extra/case_1_2.mp3",
+      "bytes": 48161
+    },
+    {
+      "ruta": "audio/teacher_extra/case_1_3.mp3",
+      "bytes": 42805
+    },
+    {
+      "ruta": "audio/teacher_extra/case_2_0.mp3",
+      "bytes": 51295
+    },
+    {
+      "ruta": "audio/teacher_extra/case_2_1.mp3",
+      "bytes": 43328
+    },
+    {
+      "ruta": "audio/teacher_extra/case_2_2.mp3",
+      "bytes": 54952
+    },
+    {
+      "ruta": "audio/teacher_extra/case_2_3.mp3",
+      "bytes": 39018
+    },
+    {
+      "ruta": "audio/teacher_extra/case_3_0.mp3",
+      "bytes": 44634
+    },
+    {
+      "ruta": "audio/teacher_extra/case_3_1.mp3",
+      "bytes": 44765
+    },
+    {
+      "ruta": "audio/teacher_extra/case_3_2.mp3",
+      "bytes": 62528
+    },
+    {
+      "ruta": "audio/teacher_extra/case_3_3.mp3",
+      "bytes": 60569
+    },
+    {
+      "ruta": "audio/teacher_extra/case_4_0.mp3",
+      "bytes": 48291
+    },
+    {
+      "ruta": "audio/teacher_extra/case_4_1.mp3",
+      "bytes": 45940
+    },
+    {
+      "ruta": "audio/teacher_extra/case_4_2.mp3",
+      "bytes": 45156
+    },
+    {
+      "ruta": "audio/teacher_extra/case_4_3.mp3",
+      "bytes": 51295
+    },
+    {
+      "ruta": "audio/teacher_extra/case_5_0.mp3",
+      "bytes": 47769
+    },
+    {
+      "ruta": "audio/teacher_extra/case_5_1.mp3",
+      "bytes": 45810
+    },
+    {
+      "ruta": "audio/teacher_extra/case_5_2.mp3",
+      "bytes": 52210
+    },
+    {
+      "ruta": "audio/teacher_extra/case_5_3.mp3",
+      "bytes": 51295
+    },
+    {
+      "ruta": "audio/teacher_extra/case_6_0.mp3",
+      "bytes": 63312
+    },
+    {
+      "ruta": "audio/teacher_extra/case_6_1.mp3",
+      "bytes": 56128
+    },
+    {
+      "ruta": "audio/teacher_extra/case_6_2.mp3",
+      "bytes": 65401
+    },
+    {
+      "ruta": "audio/teacher_extra/case_6_3.mp3",
+      "bytes": 99230
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_0_0.mp3",
+      "bytes": 89434
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_0_1.mp3",
+      "bytes": 90087
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_0_2.mp3",
+      "bytes": 106805
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_0_3.mp3",
+      "bytes": 94528
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_1_0.mp3",
+      "bytes": 82250
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_1_1.mp3",
+      "bytes": 82773
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_1_2.mp3",
+      "bytes": 101059
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_1_3.mp3",
+      "bytes": 103932
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_2_0.mp3",
+      "bytes": 85646
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_2_1.mp3",
+      "bytes": 89173
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_2_2.mp3",
+      "bytes": 83818
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_2_3.mp3",
+      "bytes": 83034
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_3_0.mp3",
+      "bytes": 96487
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_3_1.mp3",
+      "bytes": 115034
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_3_2.mp3",
+      "bytes": 87083
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_3_3.mp3",
+      "bytes": 129663
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_4_0.mp3",
+      "bytes": 97010
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_4_1.mp3",
+      "bytes": 79246
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_4_2.mp3",
+      "bytes": 87997
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_4_3.mp3",
+      "bytes": 74414
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_5_0.mp3",
+      "bytes": 98708
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_5_1.mp3",
+      "bytes": 86822
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_5_2.mp3",
+      "bytes": 93091
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_5_3.mp3",
+      "bytes": 79377
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_6_0.mp3",
+      "bytes": 111116
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_6_1.mp3",
+      "bytes": 106152
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_6_2.mp3",
+      "bytes": 85385
+    },
+    {
+      "ruta": "audio/teacher_extra/choices_6_3.mp3",
+      "bytes": 41761
+    },
+    {
+      "ruta": "audio/teacher_extra/lesson_0.mp3",
+      "bytes": 405124
+    },
+    {
+      "ruta": "audio/teacher_extra/lesson_1.mp3",
+      "bytes": 410218
+    },
+    {
+      "ruta": "audio/teacher_extra/lesson_2.mp3",
+      "bytes": 380699
+    },
+    {
+      "ruta": "audio/teacher_extra/lesson_3.mp3",
+      "bytes": 470430
+    },
+    {
+      "ruta": "audio/teacher_extra/lesson_4.mp3",
+      "bytes": 379916
+    },
+    {
+      "ruta": "audio/teacher_extra/lesson_5.mp3",
+      "bytes": 386969
+    },
+    {
+      "ruta": "audio/teacher_extra/lesson_6.mp3",
+      "bytes": 479573
+    },
+    {
+      "ruta": "audio/teacher_extra/overview.mp3",
+      "bytes": 147034
+    },
+    {
+      "ruta": "audio/teacher_extra/why_0_0.mp3",
+      "bytes": 146512
+    },
+    {
+      "ruta": "audio/teacher_extra/why_0_1.mp3",
+      "bytes": 165712
+    },
+    {
+      "ruta": "audio/teacher_extra/why_0_2.mp3",
+      "bytes": 156569
+    },
+    {
+      "ruta": "audio/teacher_extra/why_0_3.mp3",
+      "bytes": 148210
+    },
+    {
+      "ruta": "audio/teacher_extra/why_1_0.mp3",
+      "bytes": 157091
+    },
+    {
+      "ruta": "audio/teacher_extra/why_1_1.mp3",
+      "bytes": 163752
+    },
+    {
+      "ruta": "audio/teacher_extra/why_1_2.mp3",
+      "bytes": 147034
+    },
+    {
+      "ruta": "audio/teacher_extra/why_1_3.mp3",
+      "bytes": 165842
+    },
+    {
+      "ruta": "audio/teacher_extra/why_2_0.mp3",
+      "bytes": 150561
+    },
+    {
+      "ruta": "audio/teacher_extra/why_2_1.mp3",
+      "bytes": 131491
+    },
+    {
+      "ruta": "audio/teacher_extra/why_2_2.mp3",
+      "bytes": 141810
+    },
+    {
+      "ruta": "audio/teacher_extra/why_2_3.mp3",
+      "bytes": 149777
+    },
+    {
+      "ruta": "audio/teacher_extra/why_3_0.mp3",
+      "bytes": 156308
+    },
+    {
+      "ruta": "audio/teacher_extra/why_3_1.mp3",
+      "bytes": 159703
+    },
+    {
+      "ruta": "audio/teacher_extra/why_3_2.mp3",
+      "bytes": 155916
+    },
+    {
+      "ruta": "audio/teacher_extra/why_3_3.mp3",
+      "bytes": 173810
+    },
+    {
+      "ruta": "audio/teacher_extra/why_4_0.mp3",
+      "bytes": 168063
+    },
+    {
+      "ruta": "audio/teacher_extra/why_4_1.mp3",
+      "bytes": 137891
+    },
+    {
+      "ruta": "audio/teacher_extra/why_4_2.mp3",
+      "bytes": 150952
+    },
+    {
+      "ruta": "audio/teacher_extra/why_4_3.mp3",
+      "bytes": 142854
+    },
+    {
+      "ruta": "audio/teacher_extra/why_5_0.mp3",
+      "bytes": 140112
+    },
+    {
+      "ruta": "audio/teacher_extra/why_5_1.mp3",
+      "bytes": 145728
+    },
+    {
+      "ruta": "audio/teacher_extra/why_5_2.mp3",
+      "bytes": 140895
+    },
+    {
+      "ruta": "audio/teacher_extra/why_5_3.mp3",
+      "bytes": 159703
+    },
+    {
+      "ruta": "audio/teacher_extra/why_6_0.mp3",
+      "bytes": 199148
+    },
+    {
+      "ruta": "audio/teacher_extra/why_6_1.mp3",
+      "bytes": 184389
+    },
+    {
+      "ruta": "audio/teacher_extra/why_6_2.mp3",
+      "bytes": 204112
+    },
+    {
+      "ruta": "audio/teacher_extra/why_6_3.mp3",
+      "bytes": 181254
+    },
+    {
+      "ruta": "diagnostico.html",
+      "bytes": 5547
+    },
+    {
+      "ruta": "edumind-v47-tools.js",
+      "bytes": 8151
+    },
+    {
+      "ruta": "guia-estudio-promocion-horizontal-2026.html",
+      "bytes": 71981
+    },
+    {
+      "ruta": "icon-192.png",
+      "bytes": 1650
+    },
+    {
+      "ruta": "icon-512.png",
+      "bytes": 4513
+    },
+    {
+      "ruta": "index.html",
+      "bytes": 84177
+    },
+    {
+      "ruta": "juegos/abc-aventura-inicial-v43.html",
+      "bytes": 37995
+    },
+    {
+      "ruta": "juegos/aquareto-jarra-3d.html",
+      "bytes": 74432
+    },
+    {
+      "ruta": "juegos/atlas-195-paises-banderas.html",
+      "bytes": 206670
+    },
+    {
+      "ruta": "juegos/aventura-letra-l-anexos.html",
+      "bytes": 56841
+    },
+    {
+      "ruta": "juegos/bioaventura-animales-energia-ozono-v43.html",
+      "bytes": 45153
+    },
+    {
+      "ruta": "juegos/bioaventura-ecosistemas-3d.html",
+      "bytes": 88471
+    },
+    {
+      "ruta": "juegos/biografias-historia-mexico.html",
+      "bytes": 47443
+    },
+    {
+      "ruta": "juegos/capas-tierra-3d.html",
+      "bytes": 85123
+    },
+    {
+      "ruta": "juegos/ciclo-agua-3d.html",
+      "bytes": 87950
+    },
+    {
+      "ruta": "juegos/civica-activa-derechos-valores-v43.html",
+      "bytes": 51293
+    },
+    {
+      "ruta": "juegos/civilizaciones-antiguas-mundo.html",
+      "bytes": 108417
+    },
+    {
+      "ruta": "juegos/cosmogiro-rotacion-traslacion-3d.html",
+      "bytes": 76233
+    },
+    {
+      "ruta": "juegos/cuerpo-humano-sistemas.html",
+      "bytes": 150399
+    },
+    {
+      "ruta": "juegos/docentes-nuevo-ingreso-guia-nem.html",
+      "bytes": 50867
+    },
+    {
+      "ruta": "juegos/ecoaventura-agua-naturaleza-v43.html",
+      "bytes": 47217
+    },
+    {
+      "ruta": "juegos/edumind-biblioteca-lectora.html",
+      "bytes": 89574
+    },
+    {
+      "ruta": "juegos/edumind-english-touch-lab.html",
+      "bytes": 30642
+    },
+    {
+      "ruta": "juegos/edumind-english-world.html",
+      "bytes": 22716
+    },
+    {
+      "ruta": "juegos/edumind-geometria-manipulable-3d.html",
+      "bytes": 18462
+    },
+    {
+      "ruta": "juegos/edumind-ph-directores-78.html",
+      "bytes": 165601
+    },
+    {
+      "ruta": "juegos/edumind-ph-docentes-78.html",
+      "bytes": 160588
+    },
+    {
+      "ruta": "juegos/english-adventure-three-levels.html",
+      "bytes": 387159
+    },
+    {
+      "ruta": "juegos/english-galaxy-ampliado.html",
+      "bytes": 124495
+    },
+    {
+      "ruta": "juegos/english-master-nivel-4-avanzado.html",
+      "bytes": 10734
+    },
+    {
+      "ruta": "juegos/geoatlas-mapas.html",
+      "bytes": 514240
+    },
+    {
+      "ruta": "juegos/geomision-areas-3d-30.html",
+      "bytes": 69335
+    },
+    {
+      "ruta": "juegos/geomision-compuestas-20.html",
+      "bytes": 57674
+    },
+    {
+      "ruta": "juegos/geomision-perimetros-compuestos-10.html",
+      "bytes": 57900
+    },
+    {
+      "ruta": "juegos/geonumeros-decimales-volumen-sistemas-v43.html",
+      "bytes": 106320
+    },
+    {
+      "ruta": "juegos/guia-ph-directivos-50-casos-extra.html",
+      "bytes": 35573
+    },
+    {
+      "ruta": "juegos/hist-civilizaciones.html",
+      "bytes": 2807
+    },
+    {
+      "ruta": "juegos/hist-independencia.html",
+      "bytes": 41249
+    },
+    {
+      "ruta": "juegos/hist-mayas.html",
+      "bytes": 44642
+    },
+    {
+      "ruta": "juegos/hist-mesoamerica.html",
+      "bytes": 42405
+    },
+    {
+      "ruta": "juegos/hist-mexicas.html",
+      "bytes": 44746
+    },
+    {
+      "ruta": "juegos/hist-mixtecos.html",
+      "bytes": 15619
+    },
+    {
+      "ruta": "juegos/hist-olmecas.html",
+      "bytes": 16249
+    },
+    {
+      "ruta": "juegos/hist-purepechas.html",
+      "bytes": 15585
+    },
+    {
+      "ruta": "juegos/hist-reforma.html",
+      "bytes": 41373
+    },
+    {
+      "ruta": "juegos/hist-revolucion.html",
+      "bytes": 41795
+    },
+    {
+      "ruta": "juegos/hist-teotihuacanos.html",
+      "bytes": 16126
+    },
+    {
+      "ruta": "juegos/hist-tlatelolco.html",
+      "bytes": 42544
+    },
+    {
+      "ruta": "juegos/hist-toltecas.html",
+      "bytes": 15391
+    },
+    {
+      "ruta": "juegos/hist-virreinato.html",
+      "bytes": 41478
+    },
+    {
+      "ruta": "juegos/hist-zapotecos.html",
+      "bytes": 15670
+    },
+    {
+      "ruta": "juegos/laboratorio-angulos-interactivo-v82.html",
+      "bytes": 24456
+    },
+    {
+      "ruta": "juegos/laboratorio-espanol-30-temas-v81.html",
+      "bytes": 3614
+    },
+    {
+      "ruta": "juegos/lectura-forma-palabras-silabas-v67.html",
+      "bytes": 42863
+    },
+    {
+      "ruta": "juegos/lectura-primero-cuentos-v42.html",
+      "bytes": 36193
+    },
+    {
+      "ruta": "juegos/lectura-primero-frases-v42.html",
+      "bytes": 31294
+    },
+    {
+      "ruta": "juegos/lectura-primero-silabas-v42.html",
+      "bytes": 50835
+    },
+    {
+      "ruta": "juegos/lecturas-comprension-preguntas.html",
+      "bytes": 15435
+    },
+    {
+      "ruta": "juegos/lengua-magia-espanol-integral-v43.html",
+      "bytes": 58201
+    },
+    {
+      "ruta": "juegos/luna-fases-3d.html",
+      "bytes": 86654
+    },
+    {
+      "ruta": "juegos/matematicas-mega-practica-1-a-6.html",
+      "bytes": 6463
+    },
+    {
+      "ruta": "juegos/matemega-grado1-tema1-v83.html",
+      "bytes": 1647
+    },
+    {
+      "ruta": "juegos/matemega-grado1-tema2-v83.html",
+      "bytes": 1639
+    },
+    {
+      "ruta": "juegos/matemega-grado1-tema3-v83.html",
+      "bytes": 1643
+    },
+    {
+      "ruta": "juegos/matemega-grado2-tema1-v83.html",
+      "bytes": 1651
+    },
+    {
+      "ruta": "juegos/matemega-grado2-tema2-v83.html",
+      "bytes": 1651
+    },
+    {
+      "ruta": "juegos/matemega-grado2-tema3-v83.html",
+      "bytes": 1675
+    },
+    {
+      "ruta": "juegos/matemega-grado3-tema1-v83.html",
+      "bytes": 1639
+    },
+    {
+      "ruta": "juegos/matemega-grado3-tema2-v83.html",
+      "bytes": 1643
+    },
+    {
+      "ruta": "juegos/matemega-grado3-tema3-v83.html",
+      "bytes": 1687
+    },
+    {
+      "ruta": "juegos/matemega-grado4-tema1-v83.html",
+      "bytes": 1619
+    },
+    {
+      "ruta": "juegos/matemega-grado4-tema2-v83.html",
+      "bytes": 1651
+    },
+    {
+      "ruta": "juegos/matemega-grado4-tema3-v83.html",
+      "bytes": 1643
+    },
+    {
+      "ruta": "juegos/matemega-grado5-tema1-v83.html",
+      "bytes": 1615
+    },
+    {
+      "ruta": "juegos/matemega-grado5-tema2-v83.html",
+      "bytes": 1647
+    },
+    {
+      "ruta": "juegos/matemega-grado5-tema3-v83.html",
+      "bytes": 1659
+    },
+    {
+      "ruta": "juegos/matemega-grado6-tema1-v83.html",
+      "bytes": 1663
+    },
+    {
+      "ruta": "juegos/matemega-grado6-tema2-v83.html",
+      "bytes": 1643
+    },
+    {
+      "ruta": "juegos/matemega-grado6-tema3-v83.html",
+      "bytes": 1651
+    },
+    {
+      "ruta": "juegos/matemision-tres-niveles.html",
+      "bytes": 404971
+    },
+    {
+      "ruta": "juegos/materia-lab-3d.html",
+      "bytes": 88713
+    },
+    {
+      "ruta": "juegos/mercado-vital-plato-3d.html",
+      "bytes": 81382
+    },
+    {
+      "ruta": "juegos/mexico-32-entidades.html",
+      "bytes": 85896
+    },
+    {
+      "ruta": "juegos/nutridetectives-sellos-procesados-v43.html",
+      "bytes": 38904
+    },
+    {
+      "ruta": "juegos/orbita-prime-sistema-solar-20.html",
+      "bytes": 885636
+    },
+    {
+      "ruta": "juegos/orig-aprende-leer-50.html",
+      "bytes": 45781
+    },
+    {
+      "ruta": "juegos/orig-artes.html",
+      "bytes": 44424
+    },
+    {
+      "ruta": "juegos/orig-cuentos.html",
+      "bytes": 50428
+    },
+    {
+      "ruta": "juegos/orig-drama-quest.html",
+      "bytes": 44638
+    },
+    {
+      "ruta": "juegos/orig-fabulas.html",
+      "bytes": 49066
+    },
+    {
+      "ruta": "juegos/orig-fifa-servicios.html",
+      "bytes": 51212
+    },
+    {
+      "ruta": "juegos/orig-formularios.html",
+      "bytes": 55965
+    },
+    {
+      "ruta": "juegos/orig-imc.html",
+      "bytes": 60873
+    },
+    {
+      "ruta": "juegos/orig-leyenda-saber.html",
+      "bytes": 43935
+    },
+    {
+      "ruta": "juegos/orig-leyendas.html",
+      "bytes": 46742
+    },
+    {
+      "ruta": "juegos/orig-mitos.html",
+      "bytes": 44875
+    },
+    {
+      "ruta": "juegos/orig-poder-alimentacion.html",
+      "bytes": 57992
+    },
+    {
+      "ruta": "juegos/orig-revolucion.html",
+      "bytes": 39000
+    },
+    {
+      "ruta": "juegos/orig-serpientes-lectura.html",
+      "bytes": 52919
+    },
+    {
+      "ruta": "juegos/orig-servicity.html",
+      "bytes": 51178
+    },
+    {
+      "ruta": "juegos/orig-starfox.html",
+      "bytes": 68198
+    },
+    {
+      "ruta": "juegos/orig-tren-letra-m.html",
+      "bytes": 53131
+    },
+    {
+      "ruta": "juegos/orig-tren-silabas-3d.html",
+      "bytes": 68521
+    },
+    {
+      "ruta": "juegos/orig-ultraprocesados.html",
+      "bytes": 44588
+    },
+    {
+      "ruta": "juegos/plantaventura-partes-3d.html",
+      "bytes": 94590
+    },
+    {
+      "ruta": "juegos/puntos-cardinales-movimientos-3d.html",
+      "bytes": 85231
+    },
+    {
+      "ruta": "juegos/redviva-cadenas-alimentarias-3d.html",
+      "bytes": 87593
+    },
+    {
+      "ruta": "juegos/rios-del-mundo-30-retos.html",
+      "bytes": 208772
+    },
+    {
+      "ruta": "juegos/salud-reproductiva-5-6.html",
+      "bytes": 73551
+    },
+    {
+      "ruta": "juegos/silabas-especiales-14-v35.html",
+      "bytes": 48131
+    },
+    {
+      "ruta": "juegos/sopas-prime-11-temas-v42.html",
+      "bytes": 105808
+    },
+    {
+      "ruta": "juegos/tablas-magicas-dinamicas-v43.html",
+      "bytes": 43470
+    },
+    {
+      "ruta": "juegos/tren-letra-p-30-palabras-10-lecturas.html",
+      "bytes": 50443
+    },
+    {
+      "ruta": "juegos/tren-letra-s-30-palabras.html",
+      "bytes": 53998
+    },
+    {
+      "ruta": "juegos/tren-letras-19-v35.html",
+      "bytes": 51455
+    },
+    {
+      "ruta": "manifest.webmanifest",
+      "bytes": 382
+    },
+    {
+      "ruta": "portada_v73.css",
+      "bytes": 20947
+    },
+    {
+      "ruta": "portada_v73.js",
+      "bytes": 5084
+    },
+    {
+      "ruta": "privacidad.html",
+      "bytes": 2266
+    },
+    {
+      "ruta": "promocion-horizontal-2026.html",
+      "bytes": 110934
+    },
+    {
+      "ruta": "visuals/agua_realista.webp",
+      "bytes": 365266
+    },
+    {
+      "ruta": "visuals/ancient-v75.webp",
+      "bytes": 290468
+    },
+    {
+      "ruta": "visuals/ciencia_realista.webp",
+      "bytes": 237882
+    },
+    {
+      "ruta": "visuals/civica_realista.webp",
+      "bytes": 151360
+    },
+    {
+      "ruta": "visuals/compass-v75.webp",
+      "bytes": 188298
+    },
+    {
+      "ruta": "visuals/cuerpo_realista.webp",
+      "bytes": 146754
+    },
+    {
+      "ruta": "visuals/ecosistema_realista.webp",
+      "bytes": 388822
+    },
+    {
+      "ruta": "visuals/english_advanced_realista.webp",
+      "bytes": 198708
+    },
+    {
+      "ruta": "visuals/english_realista.webp",
+      "bytes": 141656
+    },
+    {
+      "ruta": "visuals/espacio_realista.webp",
+      "bytes": 194380
+    },
+    {
+      "ruta": "visuals/geografia_realista.webp",
+      "bytes": 218792
+    },
+    {
+      "ruta": "visuals/geography-v75.webp",
+      "bytes": 221412
+    },
+    {
+      "ruta": "visuals/geometry_solids_realista.webp",
+      "bytes": 109700
+    },
+    {
+      "ruta": "visuals/historia_realista.webp",
+      "bytes": 372230
+    },
+    {
+      "ruta": "visuals/lectura_realista.webp",
+      "bytes": 138432
+    },
+    {
+      "ruta": "visuals/math-v75.webp",
+      "bytes": 123172
+    },
+    {
+      "ruta": "visuals/math_realista.webp",
+      "bytes": 133478
+    },
+    {
+      "ruta": "visuals/mexico-v75.webp",
+      "bytes": 206858
+    },
+    {
+      "ruta": "visuals/mindi_ai_realista.webp",
+      "bytes": 214168
+    },
+    {
+      "ruta": "visuals/nutricion_realista.webp",
+      "bytes": 199574
+    },
+    {
+      "ruta": "visuals/nutrition-v75.webp",
+      "bytes": 236406
+    },
+    {
+      "ruta": "visuals/reading_comprehension_realista.webp",
+      "bytes": 213136
+    },
+    {
+      "ruta": "visuals/world-v75.webp",
+      "bytes": 212462
+    }
+  ]
+}
